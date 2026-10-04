@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Maze Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🤖 AI Maze Solver</h1>
+
+        <p class="subtitle">
+            Find the shortest path using Breadth-First Search
+        </p>
+
+        <div class="controls">
+
+            <button onclick="generateMaze()">
+                Generate Maze
+            </button>
+
+            <button onclick="solveMaze()">
+                🤖 Solve Maze
+            </button>
+
+            <button onclick="resetMaze()">
+                Reset
+            </button>
+
+        </div>
+
+        <div id="message">
+            Click "Solve Maze" to find the shortest path.
+        </div>
+
+        <div id="maze"></div>
+
+        <div class="legend">
+
+            <div>
+                <span class="box start"></span>
+                Start
+            </div>
+
+            <div>
+                <span class="box goal"></span>
+                Goal
+            </div>
+
+            <div>
+                <span class="box wall"></span>
+                Wall
+            </div>
+
+            <div>
+                <span class="box path"></span>
+                Path
+            </div>
+
+            <div>
+                <span class="box visited"></span>
+                Visited
+            </div>
+
+        </div>
+
+        <div class="info">
+
+            <h2>📚 ADSA Concepts Used</h2>
+
+            <ul>
+                <li>2D Array</li>
+                <li>Graph Representation</li>
+                <li>Breadth-First Search (BFS)</li>
+                <li>Queue</li>
+                <li>Shortest Path</li>
+                <li>Backtracking</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
